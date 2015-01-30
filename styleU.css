@@ -1,0 +1,171 @@
+body{
+	background:rgb(169,219,252);
+	font-family: "Lato", sans-serif;
+	color:white;
+}
+
+
+#container1{
+	margin:0 auto;
+	text-align: center;
+}
+
+p{
+	
+ 
+}
+
+
+.mainStar{
+	
+
+	opacity:0;
+	fill:white;
+	stroke:white;
+	   -moz-transition: opacity 1s linear 1s;
+ -webkit-transition: opacity 1s linear 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s linear 1s;
+}
+
+
+.t{
+   -moz-transition: opacity 1s linear 1s;
+ -webkit-transition: opacity 1s linear 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s linear 1s;
+}
+
+.openingp{
+	position:fixed;	
+	top:200px;
+	left:50%;
+	margin-left:-20%;
+	width:40%;
+	opacity:0;
+}
+
+#p8{
+
+	font-size: 30px;
+}
+
+#Gadi{
+	position:relative;
+	left:-10px;
+	opacity:0;
+	margin:0 auto;
+	color:white;
+	font-size:50px;
+	letter-spacing: -2px;
+}
+
+
+.trait{
+	
+	position: fixed;
+	opacity: 0;
+	   -moz-transition: opacity 1s linear 1s;
+ -webkit-transition: opacity 1s linear 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s linear 1s;
+}
+.minorStar{
+		z-index:40;
+	position:fixed;
+	fill:white;
+	stroke:white;
+	opacity:0;	
+	 -moz-transition: opacity 2s linear 2s;
+ -webkit-transition: opacity 2s linear 2s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 2s linear 2s;			
+}
+
+.transparent{
+	opacity:0;
+}
+
+#universityhall img {
+  position:absolute;
+  left:0;
+
+}
+
+#bgimages{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+
+#bgimages img{
+	max-width:100%;
+	height:auto;
+	position:absolute;
+	left:0;
+}
+
+.top{
+	z-index: 100;
+}
+
+.second{
+	z-index: 90;
+}
+
+.third{
+	z-index: 80;
+}
+
+.fourth{
+	z-index: 70;
+}
+
+.bottom{
+	z-index: 60;
+}
+
+img{
+	max-width:100%;
+}
+#space{
+	height:60000px;
+}
+#title{
+	position:fixed;
+	
+	top:100px;
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+#welcome{
+	margin:0 auto;
+	color:white;
+	font-size:50px;
+	letter-spacing: -2px;
+}
+
+#whoami{
+	width:90%;
+	margin-left: -45%;
+	font-size:50px;
+	letter-spacing: -5px;
+	top:0px;
+}
+
+#by{
+	font-size:20px;
+	position:relative;
+	top:50px;
+	letter-spacing: 3px;
+
+}
+
+#universityhall{
+	width:800px;
+	height:800px;
+	position:fixed;
+	top:340px;
+	left:50%;
+	margin-left:-400px;
+}
